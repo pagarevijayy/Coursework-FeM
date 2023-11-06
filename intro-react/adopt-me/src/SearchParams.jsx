@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
+import AdoptedPetContext from "./AdoptedPetContext";
 import useBreedList from "./useBreedList";
 import Results from "./Results";
 const ANIMALS = ["bird", "dog", "cat", "rabbit", "reptile"];
@@ -9,6 +10,7 @@ const SearchParams = () => {
   const [breed, setBreed] = useState("");
   const [pets, setPets] = useState([]);
   const [breeds] = useBreedList(animal);
+  const [adoptedPet] = useContext(AdoptedPetContext);
 
   useEffect(() => {
     requestPets();
@@ -32,6 +34,11 @@ const SearchParams = () => {
           requestPets();
         }}
       >
+        {adoptedPet ? (
+          <div className="pet image-container">
+            <img src={adoptedPet.images[0]} alt={adoptedPet.name} />
+          </div>
+        ) : null}
         <label htmlFor="location">
           Location
           <input
