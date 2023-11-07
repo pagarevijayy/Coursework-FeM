@@ -1,7 +1,7 @@
 # Coursework-FeM
-frontend masters coursework practice
+[Frontend Masters](https://frontendmasters.com/u/pagarevijayy/) coursework practice
 
 Completed Courses:
-1. Algo course - ThePrimegen
-2. Intro to react - Brain Holt
-3. Intermediate react - Brain Holt (progress...)
+1. [Algo course](https://frontendmasters.com/courses/algorithms/) - ThePrimegen
+2. [Intro to react](https://frontendmasters.com/courses/complete-react-v8/) - Brain Holt
+3. [Intermediate react](https://frontendmasters.com/courses/intermediate-react-v5/) - Brain Holt (progress...)
