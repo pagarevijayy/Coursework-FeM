@@ -1,5 +1,5 @@
-import { useEffect, useState, useContext } from "react";
-import AdoptedPetContext from "./AdoptedPetContext";
+import { useEffect, useState } from "react";
+import { useSelector } from "react-redux";
 import useBreedList from "./useBreedList";
 import Results from "./Results";
 const ANIMALS = ["bird", "dog", "cat", "rabbit", "reptile"];
@@ -10,7 +10,7 @@ const SearchParams = () => {
   const [breed, setBreed] = useState("");
   const [pets, setPets] = useState([]);
   const [breeds] = useBreedList(animal);
-  const [adoptedPet] = useContext(AdoptedPetContext);
+  const adoptedPet = useSelector((state) => state.adoptedPet.value);
 
   useEffect(() => {
     requestPets();

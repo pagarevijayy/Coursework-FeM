@@ -8,4 +8,4 @@ Concepts
 
 - [Hooks stackblitz](https://stackblitz.com/edit/ir5?file=src%2Froutes%2FUseRef.jsx&hideExplorer=1&initialPath=/useRef&view=both) - useRef, useMemo, useReducer, useID, useCallback, useLayoutShift
 
-- Tailwind
+- Code splitting (lazy loading) using lazy, suspsense.
