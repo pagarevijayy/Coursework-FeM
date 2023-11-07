@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-export const adoptedPetSlice = createSlice({
+const adoptedPetSlice = createSlice({
   name: "adoptedPet",
   initialState: {
     value: null,
