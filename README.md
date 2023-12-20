@@ -6,3 +6,4 @@ Completed Courses:
 2. [Intro to react](https://frontendmasters.com/courses/complete-react-v8/) - Brain Holt
 3. [Intermediate react](https://frontendmasters.com/courses/intermediate-react-v5/) - Brain Holt 
 4. [React Performance](https://frontendmasters.com/courses/react-performance/) - Steve Kinney
+5. [Redux Fundamental](https://frontendmasters.com/courses/redux-fundamentals/) - Steve Kinney
